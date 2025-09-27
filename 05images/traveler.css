@@ -1,0 +1,159 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #f2cee9;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #f2e2c4;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 10px;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0 1rem;
+    line-height: 48px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #f2cee9;
+    color: #e3dcf2;
+}
+
+nav li a:hover {
+    color: #bdedf2;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #222;
+}
+main h2 {
+    color: #222;
+    margin-bottom: .2rem;
+}
+main p {
+    margin: 0;
+    color: #333;
+}
+main ol{
+    padding: .5rem 30px;
+    background-color: #f2cee9;
+}
+main dl dt{
+color: #a97e9e;
+font-weight: 700;
+margin-top: 1rem;
+}
+main dl dd {
+color: #222;
+font-size: .9rem;
+margin-left: 20px;
+}
+main ul {
+    list-style-type: circle;
+    padding: .5rem 30px;
+    background-color: #f2cee9;}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: black;
+}
+main em {
+    font-weight: 300;
+}
+main address {
+    font-style: normal;
+    background-color: #f2e2c4;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #222;
+    width: 200px;
+}
+main a {
+    color: #222;
+}
+main a:hover {
+    color: rgb(76, 52, 69);
+}
+
+/* main image stuff here*/
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 30%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+/* gallery stuff here */
+div.gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 20px 10px;
+}
+
+div.gallery figure{
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #222;
+}
+
+
+
+/* footer stuff here */
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
