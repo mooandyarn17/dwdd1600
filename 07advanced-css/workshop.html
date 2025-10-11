@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Adriel Cooper">
+    <meta name="description" content="Learning about The History of Crochet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="traveler.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type=image/x-icon href="favicon.ico">
+    <title>Moo and Yarn Studio</title>
+</head>
+
+<body>
+    <!-- start the page head-->
+    <header>
+        <img src="images/LOGO.png" alt="Logo for Moo and Yarn" width="50" height="50">
+        <span>Moo and Yarn Studio</span>
+    </header>
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">The History of Crochet</a></li>
+            <li><a href="materials.html">Materials</a></li>
+            <li><a href="stitches.html">Stitches</a></li>
+            <li class="active"><a href="workshop.html">Sign up for a Workshop</a></li>
+        </ul>
+    </nav>
+    <!--start the main content-->
+    <main>
+        <h1>Register for a Crochet Workshop</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+                <Legend>Personal Information</Legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="fname" required></label>
+                <label>Email Address*<input type="email" name="email" required placeholder="you@example.com"></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Skill Level</legend>
+                <label><input type="radio" name="method" value="beginner"> Beginner</label>
+                <label><input type="radio" name="method" value="intermediate"> Intermediate</label>
+                <label><input type="radio" name="method" value="advanced"> Advanced</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Your Date</legend>
+                <label><input type="checkbox" name="oct20" value="chosen"> October 20, 2025 – Amigurumi/Plushies</label>
+                <label><input type="checkbox" name="oct27" value="chosen"> October 27, 2025 – Granny Squares</label>
+                <label><input type="checkbox" name="nov3" value="chosen"> November 3, 2025 – Advanced Blanket</label>
+
+                <label for="workshop-time">Preferred Time:</label><br>
+                <select id="workshop-time" name="workshop-time" required>
+                    <option value="">Please Select Time</option>
+                    <option value="morning">9:00 AM – 11:30 AM</option>
+                    <option value="afternoon">1:00 PM – 3:30 PM</option>
+                    <option value="evening">6:00 PM – 8:30 PM</option>
+                </select>
+            </fieldset>
+
+
+            <label>Special Accomodations
+                <textarea name="Special Accomodations"></textarea>
+            </label>
+
+            <input type="submit" value="Reserve My Spot">
+        </form>
+
+
+    </main>
+    <!--start the page footer-->
+    <footer>
+        <p>&copy;2025 &bull;Adriel Cooper &bull;Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
